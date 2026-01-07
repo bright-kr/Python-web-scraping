@@ -1,10 +1,10 @@
 # Python Web Scraping Guide
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/products/web-scraper) 
+[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper) 
 
 In this Python Web Scraping repository, you will find everything you need to get started with web scraping. We will explore how web scraping works, dive into various approaches in Python, and review complete examples at the end.
 
-Python is widely considered one of the [best languages for web scraping](https://brightdata.com/blog/web-data/best-languages-web-scraping) thanks to its simple syntax and a vast selection of open-source libraries. Time to learn more about it!
+Python is widely considered one of the [best languages for web scraping](https://brightdata.co.kr/blog/web-data/best-languages-web-scraping) thanks to its simple syntax and a vast selection of open-source libraries. Time to learn more about it!
 
 ## Table of Contents
 - [Web Scraping Logic in Python](#web-scraping-logic-in-python)
@@ -37,7 +37,7 @@ Python is widely considered one of the [best languages for web scraping](https:/
 - [Simplified Web Scraping With Web Scraper API](#simplified-web-scraping-with-web-scraper-api)
 
 ## Web Scraping Logic in Python
-The main building blocks for any [Python web scraping](https://brightdata.com/blog/how-tos/web-scraping-with-python) script are:
+The main building blocks for any [Python web scraping](https://brightdata.co.kr/blog/how-tos/web-scraping-with-python) script are:
 1. Retrieve the HTML of the target page.
 2. Parse the HTML into a Python object.
 3. Extract data from the parsed HTML.
@@ -98,7 +98,7 @@ Let’s now jump into web scraping with Beautiful Soup, using Requests as the HT
 
 **Note**: You can easily extend the following examples to Selenium-based web scraping or Scrapy-based web scraping.
 
-For a dedicated tutorial, refer to our guide on [web scraping with Beautiful Soup](https://brightdata.com/blog/how-tos/beautiful-soup-web-scraping).
+For a dedicated tutorial, refer to our guide on [web scraping with Beautiful Soup](https://brightdata.co.kr/blog/how-tos/beautiful-soup-web-scraping).
 
 ### Features
 Explore the main capabilities provided by Requests and Beautiful Soup.
@@ -117,7 +117,7 @@ Explore the main capabilities provided by Requests and Beautiful Soup.
 - Supports multiple parsers, including the fast built-in HTML parser [`html.parser`](https://docs.python.org/3/library/html.parser.html) and external parsers like `lxml`.
 - Handles poorly formatted or broken HTML gracefully.
 - Facilitates easy navigation (and modification) of parsed HTML content.
-- Integrates seamlessly with Requests and any other [Python HTTP client](https://brightdata.com/blog/web-data/best-python-http-clients) for complete web scraping workflows.
+- Integrates seamlessly with Requests and any other [Python HTTP client](https://brightdata.co.kr/blog/web-data/best-python-http-clients) for complete web scraping workflows.
 
 ### Setup
 To install Requests and Beautiful Soup in your project, execute the following command in your activated virtual environment:
@@ -691,14 +691,14 @@ scrapy crawl wikipedia -o titles.csv
 You can find this Scrapy project in the `scrapy_scraping` folder in the repo.
 
 ## Challenges of Python Web Scraping
-Web scraping is not always as simple as demonstrated in this repository. Most websites know the value of their data, even if it is publicly accessible on their pages. Thus, they implement several [anti-scraping measures](https://brightdata.com/blog/web-data/anti-scraping-techniques) to prevent scrapers from accessing their pages and extracting data.
+Web scraping is not always as simple as demonstrated in this repository. Most websites know the value of their data, even if it is publicly accessible on their pages. Thus, they implement several [anti-scraping measures](https://brightdata.co.kr/blog/web-data/anti-scraping-techniques) to prevent scrapers from accessing their pages and extracting data.
 
 Some of the most effective methods include CAPTCHAs, browser fingerprinting, TLS fingerprinting, rate limiting, IP blocking. While it may be possible to bypass these methods with workarounds, it is a cat-and-mouse game where most tricks are temporary and not always reliable.
 
 The solution? Keep reading!
 
 ## Simplified Web Scraping With Web Scraper API
-[Bright Data's Web Scraper API](https://brightdata.com/products/web-scraper) provides an efficient and scalable solution for extracting structured data from over 100 popular domains, including known e-commerce and social media platforms. The list of supported domains contains of some of the most visited sites worldwide.
+[Bright Data's Web Scraper API](https://brightdata.co.kr/products/web-scraper) provides an efficient and scalable solution for extracting structured data from over 100 popular domains, including known e-commerce and social media platforms. The list of supported domains contains of some of the most visited sites worldwide.
 
 With dedicated endpoints, the API offers seamless access to high-quality, compliant data. The key features of this tool include:
 - Bulk request handling (up to 5,000 URLs per request).
