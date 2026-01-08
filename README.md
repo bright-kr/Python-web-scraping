@@ -1,6 +1,6 @@
 # Python Web Scraping Guide
 
-[![Promo](https://github.com/luminati-io/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper) 
+[![Promo](https://github.com/bright-kr/LinkedIn-Scraper/blob/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.co.kr/products/web-scraper) 
 
 In this Python Web Scraping repository, you will find everything you need to get started with web scraping. We will explore how web scraping works, dive into various approaches in Python, and review complete examples at the end.
 
@@ -52,7 +52,7 @@ For step 3, the high-level logic for extracting data depends on the DOM structur
 Finally, keep in mind that there are also all-in-one web scraping tools like [Scrapy](https://scrapy.org/). These libraries simplify the process by integrating all four steps into a single platform, streamlining the scraping workflow.
 
 ## Python Web Scraping Libraries
-Discover some of the most useful libraries for web scraping with Python. For a comprehensive list, refer to our [Awesome Web Scraping repository](https://github.com/luminati-io/Awesome-Web-Scraping/blob/main/python.md).
+Discover some of the most useful libraries for web scraping with Python. For a comprehensive list, refer to our [Awesome Web Scraping repository](https://github.com/bright-kr/Awesome-Web-Scraping/blob/main/python.md).
 
 ### HTTP Clients
 - [`requests`](https://github.com/kennethreitz/requests): A simple, yet elegant HTTP library.
